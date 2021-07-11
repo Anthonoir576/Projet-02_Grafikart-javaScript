@@ -18,26 +18,32 @@
     <body>
         <header>
 
-            <div class="container">
+            <nav>
+                <ul class="tabs--nav">
 
-                <nav>
-                    <ul>
+                    <li class="tab li--content active"><a href="#home">Accueil</a></li>
+                    <li class="tab li--content"><a href="#project">Mes projets</a></li>
+                    <li class="tab li--content"><a href="#about">À propos</a></li>
+                    <li class="tab li--content"><a href="#contact">Contact</a></li>
 
-                        <li class="li--content active"><a href="#home">Accueil</a></li>
-                        <li class="li--content"><a href="#project">Mes projets</a></li>
-                        <li class="li--content"><a href="#about">À propos</a></li>
-                        <li class="li--content"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-                    </ul>
-                </nav>
+        </header>
 
+        <main>
+
+            <div class="tabs--content">
+                    
                 <div class="div--content active" id="home">
                     <div>
-                        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat laudantium, libero accusantium atque neque repellat nobis reiciendis quidem molestiae doloribus officiis maiores fuga, ex in modi quos quae error possimus!</h1>
+                        <div>
+                            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat laudantium, libero accusantium atque neque repellat nobis reiciendis quidem molestiae doloribus officiis maiores fuga, ex in modi quos quae error possimus!</h1>
+                        </div>
+                        <figure>
+                            <img src="https://via.placeholder.com/500x500" alt="fake image profil"/>
+                        </figure>
                     </div>
-                    <figure>
-                        <img src="https://via.placeholder.com/500x500" alt="fake image profil"/>
-                    </figure>
                 </div>
 
                 <div class="div--content" id="project">
@@ -137,7 +143,8 @@
 
             </div>
 
-        </header>
+        </main>
+
        
         <script src="source/js/index.js"></script>
     </body>

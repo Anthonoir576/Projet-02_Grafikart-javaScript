@@ -26,11 +26,14 @@ h2 {
 nav {
 
     background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
 
     ul {
 
         display: flex;
         justify-content: space-around;
+
+        padding: 10px 0;
     
         & li {
     
@@ -40,22 +43,13 @@ nav {
     
                 display: block;
                 font-size: 1.7rem;
+                padding: 5px 20px;
 
                 // reset
                 color: inherit;
                 text-decoration: inherit;
 
                 border: 1px solid transparent;
-
-                padding: 10px 20px;
-                
-                &:hover {
-
-                    background-color: #a1c4fd93;
-                    border: 1px solid rgba(128, 128, 128, 0.2);
-                    border-radius: 15px;
-
-                }
 
             }
         
@@ -65,8 +59,13 @@ nav {
 
 }
 
+
+// LES 4 SECTIONS  
 #home {
 
+    & div {
+
+        
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,6 +83,8 @@ nav {
             text-align: justify;
     
         }
+
+    }
 
     }
 
@@ -183,5 +184,27 @@ nav {
         }
 
     }
+
+}
+
+// ############# -  CLASS JS  - ###############
+
+.div--content {
+
+    display: none;
+
+}
+
+.div--content.active {
+
+    display: block;
+
+}
+
+.li--content.active {
+
+    background-color: #a1c4fd93;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 15px;
 
 }
