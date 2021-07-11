@@ -253,3 +253,18 @@ nav {
     border-radius: 15px;
 
 }
+
+
+
+.fade {
+
+    opacity: 0;
+    transition: opacity .3s;
+
+}
+
+.fade.in {
+
+    opacity: 1;
+
+}
