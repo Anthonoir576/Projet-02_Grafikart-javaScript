@@ -129,21 +129,29 @@ nav {
 
 #contact {
 
+    width: 100vw;
+    height: 100vh;
+
+    & h2 {
+
+        margin-bottom: 4em;
+
+    }
+
     & form {
 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
-        width: 100vw;
-        height: 50vh;
-
+     
         .form {
 
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             
             & input, textarea {
 

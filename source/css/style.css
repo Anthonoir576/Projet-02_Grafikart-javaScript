@@ -73,12 +73,17 @@ nav ul li a {
   font-size: 2rem;
 }
 
+#contact {
+  width: 100vw;
+  height: 100vh;
+}
+#contact h2 {
+  margin-bottom: 4em;
+}
 #contact form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 100vw;
-  height: 50vh;
 }
 #contact form .form {
   display: flex;
