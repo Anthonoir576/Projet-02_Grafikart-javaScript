@@ -45,11 +45,14 @@ nav {
                 color: inherit;
                 text-decoration: inherit;
 
+                border: 1px solid transparent;
+
                 padding: 10px 20px;
                 
                 &:hover {
 
-                    background-color: rgba(0, 153, 255, .5);
+                    background-color: #a1c4fd93;
+                    border: 1px solid rgba(128, 128, 128, 0.2);
                     border-radius: 15px;
 
                 }
